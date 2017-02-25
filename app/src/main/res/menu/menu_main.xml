@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.brandon.hw06.MainActivity">
+    <item
+        android:id="@+id/refreshMenuItem"
+        android:title="@string/refresh_list"
+        android:orderInCategory="0"
+        app:showAsAction="never" />
+    <item android:title="@string/favorites"
+        android:id="@+id/favoritesMenuItem"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+    <item android:title="@string/sort_increasingly"
+        android:orderInCategory="2"
+        android:id="@+id/sortIncreasingMenuItem"
+        app:showAsAction="never" />
+    <item android:title="@string/sort_decreasingly"
+        android:orderInCategory="3"
+        android:id="@+id/sortDecreasingMenuItem"
+        app:showAsAction="never"/>
+</menu>
